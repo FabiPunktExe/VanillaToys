@@ -1,0 +1,66 @@
+name: Publish
+
+on:
+  release:
+    types: [created]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: github-actions
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v4
+      - name: Download packwiz
+        uses: actions/download-artifact@v4
+        with:
+          name: "Linux 64-bit x86"
+          github-token: ${{ github.token }}
+          repository: Madis0/packwiz
+      - name: Export VanillaToys
+        run: |
+          chmod +x ./packwiz
+          pushd VanillaToys
+          ../../packwiz modrinth export -o ../VanillaToys-${{ github.ref_name }}.mrpack
+          popd
+      - name: Export VanillaToys+
+        run: |
+          chmod +x ./packwiz
+          pushd VanillaToys+
+          ../../packwiz modrinth export -o ../VanillaToys+-${{ github.ref_name }}.mrpack
+          popd
+      - name: Upload VanillaToys to GitHub releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload ${{ github.ref_name }} VanillaToys-${{ github.ref_name }}.mrpack
+      - name: Upload VanillaToys+ to GitHub releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload ${{ github.ref_name }} VanillaToys+-${{ github.ref_name }}.mrpack
+      - name: Upload VanillaToys to Modrinth
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          name: ${{ github.ref_name }}
+          modrinth-id: LA7sEbTk
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          modrinth-unfeature-mode: subset
+          files: |
+            VanillaToys-${{ github.ref_name }}.mrpack
+          loaders: fabric
+          game-versions: 1.20.4
+      - name: Upload VanillaToys+ to Modrinth
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          name: ${{ github.ref_name }}
+          modrinth-id: 4oR8V771
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          modrinth-unfeature-mode: subset
+          files: |
+            VanillaToys+-${{ github.ref_name }}.mrpack
+          loaders: fabric
+          game-versions: 1.20.4
