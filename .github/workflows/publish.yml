@@ -20,28 +20,29 @@ jobs:
           name: "Linux 64-bit x86"
           github-token: ${{ github.token }}
           repository: Madis0/packwiz
+          run-id: 12104671023
       - name: Export VanillaToys
         run: |
           chmod +x ./packwiz
           pushd VanillaToys
-          ../../packwiz modrinth export -o ../VanillaToys-${{ github.ref_name }}.mrpack
+          ../packwiz modrinth export -o ../VanillaToys-${{ github.ref_name }}.mrpack
           popd
       - name: Export VanillaToys+
         run: |
           chmod +x ./packwiz
           pushd VanillaToys+
-          ../../packwiz modrinth export -o ../VanillaToys+-${{ github.ref_name }}.mrpack
+          ../packwiz modrinth export -o ../VanillaToys+-${{ github.ref_name }}.mrpack
           popd
       - name: Upload VanillaToys to GitHub releases
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release upload ${{ github.ref_name }} VanillaToys-${{ github.ref_name }}.mrpack
+          gh release upload ${{ github.ref_name }} "VanillaToys-${{ github.ref_name }}.mrpack"
       - name: Upload VanillaToys+ to GitHub releases
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release upload ${{ github.ref_name }} VanillaToys+-${{ github.ref_name }}.mrpack
+          gh release upload ${{ github.ref_name }} "VanillaToys+-${{ github.ref_name }}.mrpack"
       - name: Upload VanillaToys to Modrinth
         uses: Kir-Antipov/mc-publish@v3.3
         with:
