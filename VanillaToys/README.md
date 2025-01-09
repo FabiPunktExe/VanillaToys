@@ -1,5 +1,5 @@
 # VanillaToys
-More features are also available in [VanillaToys+](https://modrinth.com/modrinth/vanillatoys+).
+More features are available in [VanillaToys+](https://modrinth.com/modrinth/vanillatoys+).
 <details>
 <summary>Features</summary>
 <ul>
