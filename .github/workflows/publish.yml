@@ -53,7 +53,7 @@ jobs:
           files: |
             VanillaToys-${{ github.ref_name }}.mrpack
           loaders: fabric
-          game-versions: 1.20.4
+          game-versions: 1.21.3
       - name: Upload VanillaToys+ to Modrinth
         uses: Kir-Antipov/mc-publish@v3.3
         with:
@@ -64,4 +64,4 @@ jobs:
           files: |
             VanillaToys+-${{ github.ref_name }}.mrpack
           loaders: fabric
-          game-versions: 1.20.4
+          game-versions: 1.21.3
