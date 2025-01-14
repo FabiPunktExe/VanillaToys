@@ -17,6 +17,7 @@ More features are available in [VanillaToys+](https://modrinth.com/modrinth/vani
 <li>Volume: 50%</li>
 <li>Unlimited FPS</li>
 <li>Zoom hotkey: C</li>
+<li>Brightnes: Bright</li>
 <li>Show operator item tab</li>
 <li>Classic enchantment glint</li>
 <li>Load/save hotbar hotkey: none</li>
