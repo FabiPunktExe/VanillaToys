@@ -1,16 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "f2b518ba95bc01dd89e8a6f8d3ea7806cc64e0dfdbde2c44bef18eb3e247ec3b"
-
-[[files]]
 file = "config/replaymod.json"
 hash = "46d34d20052c14a03ebd48109d9669cda021562cfea3b7303c9615d1e4251dfc"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "f1eb0aa82eb3aa44c5fafaa9ccad8f96586bb4f2e3eeaa815518b644749a37ea"
+hash = "13a29b2098af06c2548d057dca8d851c6bdcf9e6eb88f55074a975a6d9015d69"
+
+[[files]]
+file = "config/viafabricplus/settings.json"
+hash = "cd3247e99adb751644e909407149c8aa1734032146292c950e9ae5444915c2ac"
 
 [[files]]
 file = "mods/animatica.pw.toml"
@@ -64,7 +64,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "3d0bf4d56ea941f856200934fdc2fb4952fe513d469f47bdb5fc586f99f16097"
+hash = "a331cfae27ee25818e8b27c2a623773c9b82dbd491365e035fdf9869ec6661c1"
 metafile = true
 
 [[files]]
@@ -154,4 +154,4 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "2779ba8cb109378197178298d727ab3bee5930dcd48f0c1312af5973ad1146c8"
+hash = "a333b6370b7835e3f6c9852c4e3499bfa164b27906f95d3153090e790e5b3886"

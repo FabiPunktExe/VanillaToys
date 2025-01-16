@@ -4,12 +4,14 @@ enableVsync:false
 bobView:false
 glintSpeed:1.0
 glintStrength:1.0
+gamma:1.0
 guiScale:2
 maxFps:260
 renderClouds:"false"
 resourcePacks:["vanilla","fabric","continuity:default","continuity:glass_pane_culling_fix"]
 narrator:0
 skipMultiplayerWarning:true
+tutorialStep:none
 key_key.saveToolbarActivator:key.keyboard.unknown
 key_key.loadToolbarActivator:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown

@@ -21,6 +21,7 @@ All *italic written features* are also available in [VanillaToys](https://modrin
 <li><i>Volume: 50%</i></li>
 <li><i>Unlimited FPS</i></li>
 <li><i>Zoom hotkey: C</i></li>
+<li><i>Brightnes: Bright</i></li>
 <li>Push-to-talk hotkey: V</li>
 <li><i>Show operator item tab</i></li>
 <li><i>Classic enchantment glint</i></li>
