@@ -1,0 +1,13 @@
+name = "ClientSpoofer"
+filename = "ClientSpoofer-fabric-1.20.4-1.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/nWJHVhGM/versions/t2UlixQp/ClientSpoofer-fabric-1.20.4-1.0.1.jar"
+hash-format = "sha512"
+hash = "fbc6f19d0d2722581c8e181ff37ad501338523acfd9b424a14217ce212511db33de49b1ecba4755077dd0a6d7aec26db738251e3016964f0ecc2efd13c2ab94c"
+
+[update]
+[update.modrinth]
+mod-id = "nWJHVhGM"
+version = "t2UlixQp"

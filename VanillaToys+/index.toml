@@ -33,6 +33,11 @@ hash = "5fe5dd4dcfacb67013c32780ba2ab3406d7fa5a41f730880c58369df0b8f9ae0"
 metafile = true
 
 [[files]]
+file = "mods/clientspoofer.pw.toml"
+hash = "11b06edc31d06c28b80aa5b6f79bd0ed627f611239c33ad9741e340c2c61e79c"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "c9422a2e64407bc333de55a7324ddfd2c40b73234c14d6c184bbd9a892f9406e"
 metafile = true

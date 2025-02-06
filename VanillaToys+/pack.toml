@@ -1,12 +1,12 @@
 name = "VanillaToys+ 1.20.4"
 author = "Fabi.exe"
-version = "1.1.2"
+version = "1.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "f9c0ffde4364a7b1f7762bc0d942085eea2427acf19cd882e3b6c44e76034285"
+hash = "450dad8f07bfe14320406be3714d04b9ce1e077e5665f2c5ec8497c9d03acb51"
 
 [versions]
 fabric = "0.16.10"
