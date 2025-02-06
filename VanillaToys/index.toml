@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "f1eb0aa82eb3aa44c5fafaa9ccad8f96586bb4f2e3eeaa815518b644749a37ea"
+hash = "13a29b2098af06c2548d057dca8d851c6bdcf9e6eb88f55074a975a6d9015d69"
 
 [[files]]
 file = "mods/capes.pw.toml"
@@ -41,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "3d0bf4d56ea941f856200934fdc2fb4952fe513d469f47bdb5fc586f99f16097"
+hash = "bb9a29a48b27e7abc0799d4393240ae2cdcf7d64341c9a63347769173f8bda2e"
 metafile = true
 
 [[files]]
@@ -51,7 +51,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "bcd55cbce58971fa08631823b2293459fcd6d8f610be62765d4b89df180b52e6"
+hash = "5379ad762b06cadda63287e5afec87a4c70b8369b97af9096ab1f24477b6de7f"
 metafile = true
 
 [[files]]
@@ -61,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "b1d9b402f48945e50cc1377f5debc9cc90614e0aac45d70710b15d5756caed0a"
+hash = "da82ef9cb9353b9ff2701172e56618a60a357bfee92d1c97a875a5d835a6cdc9"
 metafile = true
 
 [[files]]
@@ -76,7 +76,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "b0e5cab5c909b548e79a7c65ef33b7f2e66abd0108c975b72c76117e9596b18c"
+hash = "55a727cabdd9d6e84fb0232b49d0dfa207751002e7f1f63b959baa35e2f29868"
 metafile = true
 
 [[files]]
